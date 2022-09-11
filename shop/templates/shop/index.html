@@ -1,0 +1,49 @@
+{% extends 'shop/basic.html' %}
+{% block title %} My Shop {% endblock %}
+
+{% block css %}
+    .carousel-indicators [data-bs-target]{background-color:blue;}
+    .card-img-top{height:350px;}
+{% endblock %}
+{% block container %}
+{% load static %}
+<div class="container mt-3">
+    <div id="carousel_id" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            {% for i in range %}
+            <button type="button" data-bs-target="#carousel_id" data-bs-slide-to="{{i}}" class="active"
+                    aria-current="true" aria-label="Slide {{i}}"></button>
+            {% endfor %}
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="card-group">
+                    {% for product in products%}
+                    <div class="card">
+                        <img src='/media/{{product.image}}' class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">{{product.product_name}}</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p>
+                        </div>
+                    </div>
+                    {% if forloop.counter|divisibleby:3 and forloop.counter > 0 and not forloop.last %}
+                </div></div>
+                    <div class="carousel-item">
+                    <div class="card-group">
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel_id" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" style="background-color:blue;" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel_id" data-bs-slide="next">
+            <span class="carousel-control-next-icon" style="background-color:blue;" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+</div>
+{% endblock %}
