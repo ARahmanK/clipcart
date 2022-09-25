@@ -1,0 +1,30 @@
+{% extends 'shop/basic.html' %}
+{% block title %} About Us {% endblock %}
+
+{% block container %}
+{% load static %}
+<div class="container mt-3">
+    <h1 class="text-centered my-3">Contact Us</h1>
+    <br>
+    <form class="row g-3" action="/shop/contact" method="post">
+    {% csrf_token %}
+        <div class="col-md-6">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+        </div>
+        <div class="col-md-6">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter your Email">
+        </div>
+        <div class="col-md-6">
+            <label for="phone" class="form-label">Phone</label>
+            <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter your Phone number">
+        </div>
+        <div class="mb-3">
+            <label for="msg" class="form-label">Message</label>
+            <textarea class="form-control" id="msg" rows="4" name="msg" placeholder="Enter Text here"> </textarea>
+        </div>
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary">submit</button>
+        </div>
+        {% endblock %}

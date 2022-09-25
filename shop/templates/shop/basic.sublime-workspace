@@ -1,0 +1,191 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/ark/DJango/clipcart/shop/templates/shop/basic.html",
+		"/home/ark/DJango/clipcart/shop/views.py",
+		"/home/ark/Time in hours, minutes and seconds",
+		"/home/ark/Downloads/widget_tree_view/static/src/js/tree_viewer.js",
+		"/home/ark/Downloads/ARK",
+		"/home/ark/jasperreports-server-cp-8.0.0/apache-tomcat/webapps/jasperserver/scripts/addResource/query/locateQueryMain.js",
+		"/home/ark/Public/Versions/odoo15_E/odoo/addons/point_of_sale/static/src/js/Screens/ProductScreen/ProductsWidget.js",
+		"/home/ark/jasperreports-server-cp-8.0.0/apache-tomcat/webapps/jasperserver/scripts/addResource/inputControls/addInputControlMain.js",
+		"/home/ark/Desktop/widget_tree_view/static/src/js/tree_viewer.js",
+		"/home/ark/FYP/pytorch/cricket-highlights-1/data.yaml",
+		"/home/ark/FYP/pytorch/yolov5/tutorial.ipynb",
+		"/home/ark/FYP/pytorch/yolov5/dataset.yaml",
+		"/home/ark/FYP/pytorch/bold.ipynb",
+		"/home/ark/Public/Versions/odoo15_E/odoo/custom_addons/multi_barcodes/pos_multi_barcodes/static/src/js/pos.js",
+		"/home/ark/Downloads/bugs 08042022",
+		"/home/ark/Desktop/upc_code.csv",
+		"/home/ark/django_test/merkur/media/documents/2017/06/02/local_client/__manifest__.py",
+		"/home/ark/django_test/merkur/media/documents/2017/06/02/LICENSE_2e3qhZO",
+		"/home/ark/django_test/merkur/media/documents/2017/06/02/LICENSE",
+		"/home/ark/django_test/merkur/media/documents/2017/06/02/index.js",
+		"/home/ark/django_test/merkur/merkur_analytics/settings.py",
+		"/home/ark/django_test/merkur/merkur_analytics/urls.py",
+		"/home/ark/django_test/merkur/merkur_analytics/__init__.py",
+		"/home/ark/django_test/merkur/amz_products/urls.py",
+		"/home/ark/django_test/merkur/manage.py"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 98.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "basic.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 218.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

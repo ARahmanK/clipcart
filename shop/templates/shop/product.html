@@ -1,0 +1,48 @@
+{% extends 'shop/basic.html' %}
+{% block title %}{{product.product_name}}{% endblock %}
+
+{% block container %}
+{% load static %}
+<div class="container mt-3">
+  <div class="row align-items-start">
+    <div class="col">
+      <div style="width: 80%;">
+      <img class="img-fluid" src="/media/{{product.image}}">
+      <div class="d-flex my-2 justify-content-around">
+        <button id="pc{{product.id}}" class="btn btn-primary cart" type="button">Add to Cart</button>
+        <a href="#"><button id="buy{{product.id}}" class="btn btn-primary" type="button">Buy Now</button></a>
+    </div>
+  </div>
+    </div>
+    <div class="col">
+      <h2>{{product.product_name}}</h2>
+      <p><b>Price</b>{{product.price}} <span><b> Category</b>{{product.category}}</span></p>
+      
+      <p>{{product.description}}</p>
+    </div>
+    <div class="col"></div>
+  </div>
+</div>
+{% endblock %}
+{% block js %}
+    <script>
+    if (localStorage.getItem('cart')== null){
+        cart={};
+    }
+    else{
+        cart = JSON.parse(localStorage.getItem('cart'));
+        document.getElementById('cart').innerHTML= Object.keys(cart).length;
+    }
+    $('.cart').click(function (){
+        var id = this.id.toString();
+        if (cart[id]!=undefined){
+            cart[id]= cart[id]+1;
+        }
+        else{
+            cart[id]=1;
+        }
+        localStorage.setItem('cart',JSON.stringify(cart));
+        document.getElementById('cart').innerHTML= Object.keys(cart).length;
+    });
+</script>
+{% endblock %}
